@@ -20,7 +20,7 @@ The system serves as a classic benchmark for nonlinear control and state-space d
 ## Project Structure
 
 ```
-├── report.pdf        # Full project report
+├── Report.pdf        # Full project report
 └── README.md
 ```
 
@@ -42,16 +42,16 @@ The system serves as a classic benchmark for nonlinear control and state-space d
 - Design of a full-state observer to estimate non-measured states
 
 ### 4. Horizontal Arm Control
-| Strategy | Description |
-|---|---|
-| PID | Classical tuning on the linearized model |
-| State-space (pole placement) | Full-state feedback with observer |
+ Strategy Description 
+
+ PID - Classical tuning on the linearized model 
+ State-space (pole placement) - Full-state feedback with observer 
 
 ### 5. Balance Control (Unstable Equilibrium)
-| Strategy | Description |
-|---|---|
-| LQR | Optimal state feedback minimizing a quadratic cost |
-| Pole placement | Manual eigenvalue assignment |
+ Strategy  Description 
+
+ LQR - Optimal state feedback minimizing a quadratic cost 
+ Pole placement - Manual eigenvalue assignment 
 
 Both strategies are compared and the best-performing one is selected for the final implementation.
 
@@ -65,10 +65,8 @@ Both strategies are compared and the best-performing one is selected for the fin
 
 ## Tools & Environment
 
-| Tool | Purpose |
-
- MATLAB / Simulink | Modelling, simulation, control design 
- Quanser QUARC | Real-time implementation on QUBE hardware 
+ MATLAB / Simulink - Modelling, simulation, control design 
+ Quanser QUARC - Real-time implementation on QUBE hardware 
 
 ---
 
